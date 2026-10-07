@@ -7,10 +7,10 @@ import joblib
 import pandas as pd
 import streamlit as st
 
-
 MODEL_PATH = Path(
-    "artifacts/customer_churn_logistic_regression.joblib"
+    "customer_churn_logistic_regression.joblib"
 )
+
 
 METRICS_PATH = Path(
     "artifacts/customer_churn_metrics.json"
